@@ -11,7 +11,6 @@ def divisibleSumPairs(n, k, ar):
         for j in range(i+1,len(ar)):
             if (ar[i]+ar[j])%k == 0:
                 times += 1
-                print(ar[i],ar[j])
     return times
 
 
